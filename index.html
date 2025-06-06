@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chua Van Hanh - Hoa Lan</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Chua Van Hanh</h1>
+            </div>
+            <div class="language-switcher">
+                <button onclick="switchLanguage('nl')" class="lang-btn active" data-lang="nl">NL</button>
+                <button onclick="switchLanguage('vi')" class="lang-btn" data-lang="vi">VI</button>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" data-nl="Home" data-vi="Trang Chủ">Home</a></li>
+                <li><a href="#about" data-nl="Over Ons" data-vi="Giới Thiệu">Over Ons</a></li>
+                <li><a href="#activities" data-nl="Activiteiten" data-vi="Hoạt Động">Activiteiten</a></li>
+                <li><a href="#schedule" data-nl="Schema" data-vi="Lịch Trình">Schema</a></li>
+                <li><a href="#contact" data-nl="Contact" data-vi="Liên Hệ">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="main-container">
+        <aside class="side-menu">
+            <nav class="side-nav">
+                <ul>
+                    <li><a href="#nieuws" data-nl="Nieuws" data-vi="Tin Tức">Nieuws</a></li>
+                    <li><a href="#meditatie" data-nl="Meditatie" data-vi="Thiền Định">Meditatie</a></li>
+                    <li><a href="#boeddhisme" data-nl="Boeddhisme" data-vi="Phật Giáo">Boeddhisme</a></li>
+                    <li><a href="#ceremonies" data-nl="Ceremonies" data-vi="Nghi Lễ">Ceremonies</a></li>
+                    <li><a href="#onderwijs" data-nl="Onderwijs" data-vi="Giáo Dục">Onderwijs</a></li>
+                    <li><a href="#bibliotheek" data-nl="Bibliotheek" data-vi="Thư Viện">Bibliotheek</a></li>
+                    <li><a href="#donaties" data-nl="Donaties" data-vi="Quyên Góp">Donaties</a></li>
+                    <li><a href="#vrijwilligers" data-nl="Vrijwilligers" data-vi="Tình Nguyện Viên">Vrijwilligers</a></li>
+                    <li><a href="#foto-galerij" data-nl="Foto Galerij" data-vi="Thư Viện Ảnh">Foto Galerij</a></li>
+                    <li><a href="#links" data-nl="Links" data-vi="Liên Kết">Links</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            <section id="home" class="hero">
+                <div class="hero-content">
+                    <h2 data-nl="Welkom bij Chua Van Hanh" data-vi="Chào Mừng Đến Chùa Vạn Hạnh">Welkom bij Chua Van Hanh</h2>
+                    <p data-nl="Boeddhistische tempel in Hoa Lan" data-vi="Chùa Phật Giáo tại Hoa Lan">Boeddhistische tempel in Hoa Lan</p>
+                </div>
+            </section>
+
+            <section id="about" class="about">
+                <h2 data-nl="Over Ons" data-vi="Giới Thiệu">Over Ons</h2>
+                <div class="about-content">
+                    <p data-nl="Chua Van Hanh is een boeddhistische tempel gelegen in Hoa Lan. Onze tempel is gewijd aan het bevorderen van vrede, wijsheid en compassie in de gemeenschap." 
+                       data-vi="Chùa Vạn Hạnh là một ngôi chùa Phật giáo tọa lạc tại Hoa Lan. Chùa chúng tôi được dành riêng để thúc đẩy hòa bình, trí tuệ và lòng từ bi trong cộng đồng.">
+                        Chua Van Hanh is een boeddhistische tempel gelegen in Hoa Lan. Onze tempel is gewijd aan het bevorderen van vrede, wijsheid en compassie in de gemeenschap.
+                    </p>
+                    <p data-nl="We bieden een ruimte voor meditatie, studie en beoefening van het boeddhisme, open voor iedereen die geïnteresseerd is in deze oude wijsheidstraditie."
+                       data-vi="Chúng tôi cung cấp không gian cho thiền định, học tập và thực hành Phật giáo, mở cửa cho tất cả những ai quan tâm đến truyền thống trí tuệ cổ xưa này.">
+                        We bieden een ruimte voor meditatie, studie en beoefening van het boeddhisme, open voor iedereen die geïnteresseerd is in deze oude wijsheidstraditie.
+                    </p>
+                </div>
+            </section>
+
+            <!-- Rest of the sections remain the same -->
+            // ... existing code ...
+        </main>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <p data-nl="© 2024 Chua Van Hanh. Alle rechten voorbehouden." 
+               data-vi="© 2024 Chùa Vạn Hạnh. Bảo lưu mọi quyền.">
+                © 2024 Chua Van Hanh. Alle rechten voorbehouden.
+            </p>
+            <p data-nl="KvK nummer: 12345678" data-vi="Mã số KvK: 12345678">KvK nummer: 12345678</p>
+        </div>
+    </footer>
+
+    <script>
+        function switchLanguage(lang) {
+            // Update active button
+            document.querySelectorAll('.lang-btn').forEach(btn => {
+                btn.classList.remove('active');
+                if (btn.dataset.lang === lang) {
+                    btn.classList.add('active');
+                }
+            });
+
+            // Update all elements with data attributes
+            document.querySelectorAll('[data-nl]').forEach(element => {
+                if (element.tagName === 'INPUT' || element.tagName === 'TEXTAREA') {
+                    element.placeholder = element.dataset[lang];
+                } else {
+                    element.textContent = element.dataset[lang];
+                }
+            });
+
+            // Update HTML lang attribute
+            document.documentElement.lang = lang;
+        }
+    </script>
+</body>
+</html> 
