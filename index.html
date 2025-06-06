@@ -8,48 +8,37 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&family=Noto+Sans+Vietnamese:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
-    <script src="js/script.js"></script>
+    <script src="js/menus.js"></script>
 </head>
 <body>
     <header>
-        <nav>
+        <div class="header-container">
+            <div class="logo">
+                <h1>Van Hanh Pagode</h1>
+            </div>
+            <nav class="main-nav">
+                <ul class="nav-links"></ul>
+            </nav>
+            <div class="lang-switcher" data-lang="nl">
+                <button class="lang-btn" data-lang="nl" aria-label="Switch to Dutch" title="Nederlands">
+                    <img src="images/flag-nl.png" alt="NL" class="flag-icon" />
+                </button>
+                <button class="lang-btn" data-lang="vi" aria-label="Switch to Vietnamese" title="Tiếng Việt">
+                    <img src="images/flag-vn.png" alt="VI" class="flag-icon" />
+                </button>
+            </div>
             <button class="hamburger" aria-label="Menu">
                 <span></span>
                 <span></span>
                 <span></span>
             </button>
-            <div class="logo">
-                <h1>Chua Van Hanh</h1>
-            </div>
-            <div class="language-switcher">
-                <button onclick="switchLanguage('nl')" class="lang-btn active" data-lang="nl">NL</button>
-                <button onclick="switchLanguage('vi')" class="lang-btn" data-lang="vi">VI</button>
-            </div>
-            <ul class="nav-links">
-                <li><a href="#home" data-nl="Home" data-vi="Trang Chủ">Home</a></li>
-                <li><a href="#about" data-nl="Over Ons" data-vi="Giới Thiệu">Over Ons</a></li>
-                <li><a href="#activities" data-nl="Activiteiten" data-vi="Hoạt Động">Activiteiten</a></li>
-                <li><a href="#schedule" data-nl="Schema" data-vi="Lịch Trình">Schema</a></li>
-                <li><a href="#contact" data-nl="Contact" data-vi="Liên Hệ">Contact</a></li>
-            </ul>
-        </nav>
+        </div>
     </header>
 
     <div class="main-container">
         <aside class="side-menu">
             <nav class="side-nav">
-                <ul>
-                    <li><a href="#nieuws" data-nl="Nieuws" data-vi="Tin Tức">Nieuws</a></li>
-                    <li><a href="#meditatie" data-nl="Meditatie" data-vi="Thiền Định">Meditatie</a></li>
-                    <li><a href="#boeddhisme" data-nl="Boeddhisme" data-vi="Phật Giáo">Boeddhisme</a></li>
-                    <li><a href="#ceremonies" data-nl="Ceremonies" data-vi="Nghi Lễ">Ceremonies</a></li>
-                    <li><a href="#onderwijs" data-nl="Onderwijs" data-vi="Giáo Dục">Onderwijs</a></li>
-                    <li><a href="#bibliotheek" data-nl="Bibliotheek" data-vi="Thư Viện">Bibliotheek</a></li>
-                    <li><a href="#donaties" data-nl="Donaties" data-vi="Quyên Góp">Donaties</a></li>
-                    <li><a href="#vrijwilligers" data-nl="Vrijwilligers" data-vi="Tình Nguyện Viên">Vrijwilligers</a></li>
-                    <li><a href="#foto-galerij" data-nl="Foto Galerij" data-vi="Thư Viện Ảnh">Foto Galerij</a></li>
-                    <li><a href="#links" data-nl="Links" data-vi="Liên Kết">Links</a></li>
-                </ul>
+                <ul></ul>
             </nav>
         </aside>
 
@@ -61,22 +50,17 @@
                 </div>
             </section>
 
-            <section id="about" class="about">
-                <h2 data-nl="Over Ons" data-vi="Giới Thiệu">Over Ons</h2>
-                <div class="about-content">
-                    <p data-nl="Chua Van Hanh is een boeddhistische tempel gelegen in Hoa Lan. Onze tempel is gewijd aan het bevorderen van vrede, wijsheid en compassie in de gemeenschap." 
-                       data-vi="Chùa Vạn Hạnh là một ngôi chùa Phật giáo tọa lạc tại Hoa Lan. Chùa chúng tôi được dành riêng để thúc đẩy hòa bình, trí tuệ và lòng từ bi trong cộng đồng.">
-                        Chua Van Hanh is een boeddhistische tempel gelegen in Hoa Lan. Onze tempel is gewijd aan het bevorderen van vrede, wijsheid en compassie in de gemeenschap.
-                    </p>
-                    <p data-nl="We bieden een ruimte voor meditatie, studie en beoefening van het boeddhisme, open voor iedereen die geïnteresseerd is in deze oude wijsheidstraditie."
-                       data-vi="Chúng tôi cung cấp không gian cho thiền định, học tập và thực hành Phật giáo, mở cửa cho tất cả những ai quan tâm đến truyền thống trí tuệ cổ xưa này.">
-                        We bieden een ruimte voor meditatie, studie en beoefening van het boeddhisme, open voor iedereen die geïnteresseerd is in deze oude wijsheidstraditie.
-                    </p>
+            <section id="video" class="video-section" style="display: none;">
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/T3Y300CioFs" title="Van Hanh Pagode" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </section>
 
-            <!-- Rest of the sections remain the same -->
-            // ... existing code ...
+            <section id="content" class="content-section" style="display: none;" data-content="hoiphatgiao">
+                <!-- Content will be loaded dynamically -->
+            </section>
+
+            <!-- Remove the static About section from here -->
         </main>
     </div>
 
@@ -89,5 +73,6 @@
             <p data-nl="KvK nummer: 12345678" data-vi="Mã số KvK: 12345678">KvK nummer: 12345678</p>
         </div>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html> 

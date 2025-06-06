@@ -1,0 +1,70 @@
+{
+    "title": {
+        "nl": "ANBI Informatie",
+        "vi": "Thông Tin ANBI"
+    },
+    "content": {
+        "nl": {
+            "introduction": "De Van Hanh Pagode is aangemerkt als een Algemeen Nut Beogende Instelling (ANBI). Dit betekent dat giften aan de tempel fiscaal aftrekbaar zijn.",
+            "objectives": {
+                "title": "Doelstellingen",
+                "description": "Als ANBI streeft de tempel de volgende doelen na:",
+                "items": [
+                    "Het bevorderen van het boeddhisme in Nederland",
+                    "Het verzorgen van religieuze diensten en ceremonies",
+                    "Het bieden van educatieve en culturele activiteiten",
+                    "Het ondersteunen van de Vietnamese gemeenschap"
+                ]
+            },
+            "activities": {
+                "title": "Activiteiten",
+                "description": "De tempel organiseert regelmatig:",
+                "items": [
+                    "Religieuze ceremonies en vieringen",
+                    "Meditatie- en dharma-sessies",
+                    "Culturele evenementen",
+                    "Educatieve programma's"
+                ]
+            },
+            "membership": {
+                "title": "Fiscale Informatie",
+                "description": "Als ANBI voldoet de tempel aan de volgende voorwaarden:"
+            },
+            "contact": {
+                "title": "Contact",
+                "description": "Voor meer informatie over de ANBI-status en fiscale zaken, kunt u contact opnemen met het bestuur van de tempel."
+            }
+        },
+        "vi": {
+            "introduction": "Chùa Vạn Hạnh được công nhận là một Tổ chức Vì Lợi ích Cộng đồng (ANBI). Điều này có nghĩa là các khoản quyên góp cho chùa có thể được khấu trừ thuế.",
+            "objectives": {
+                "title": "Mục Tiêu",
+                "description": "Là một tổ chức ANBI, chùa theo đuổi các mục tiêu sau:",
+                "items": [
+                    "Phát triển Phật giáo tại Hà Lan",
+                    "Tổ chức các nghi lễ và lễ hội tôn giáo",
+                    "Cung cấp các hoạt động giáo dục và văn hóa",
+                    "Hỗ trợ cộng đồng người Việt"
+                ]
+            },
+            "activities": {
+                "title": "Hoạt Động",
+                "description": "Chùa thường xuyên tổ chức:",
+                "items": [
+                    "Các nghi lễ và lễ hội tôn giáo",
+                    "Các buổi thiền định và giảng pháp",
+                    "Các sự kiện văn hóa",
+                    "Các chương trình giáo dục"
+                ]
+            },
+            "membership": {
+                "title": "Thông Tin Thuế",
+                "description": "Là một tổ chức ANBI, chùa đáp ứng các điều kiện sau:"
+            },
+            "contact": {
+                "title": "Liên Hệ",
+                "description": "Để biết thêm thông tin về tình trạng ANBI và các vấn đề thuế, vui lòng liên hệ với ban điều hành của chùa."
+            }
+        }
+    }
+} 

@@ -1,0 +1,70 @@
+{
+    "title": {
+        "nl": "Aankondigingen",
+        "vi": "Thông Báo"
+    },
+    "content": {
+        "nl": {
+            "introduction": "Bekijk hier de laatste aankondigingen en evenementen van de Van Hanh Pagode.",
+            "objectives": {
+                "title": "Aankomende Evenementen",
+                "description": "De volgende evenementen staan gepland:",
+                "items": [
+                    "Wekelijkse meditatiesessies elke zondag",
+                    "Maandelijkse dharma-lezingen",
+                    "Speciale ceremonies tijdens boeddhistische feestdagen",
+                    "Culturele evenementen en vieringen"
+                ]
+            },
+            "activities": {
+                "title": "Recente Aankondigingen",
+                "description": "De laatste updates en mededelingen:",
+                "items": [
+                    "Nieuwe meditatiegroep start binnenkort",
+                    "Tijdelijke aanpassing openingstijden",
+                    "Vrijwilligers gezocht voor evenementen",
+                    "Nieuwe dharma-cursus beschikbaar"
+                ]
+            },
+            "membership": {
+                "title": "Belangrijke Mededelingen",
+                "description": "Let op de volgende belangrijke informatie:"
+            },
+            "contact": {
+                "title": "Contact",
+                "description": "Voor meer informatie over aankondigingen en evenementen, kunt u contact opnemen met het bestuur van de tempel."
+            }
+        },
+        "vi": {
+            "introduction": "Xem các thông báo và sự kiện mới nhất của Chùa Vạn Hạnh tại đây.",
+            "objectives": {
+                "title": "Sự Kiện Sắp Tới",
+                "description": "Các sự kiện sắp diễn ra:",
+                "items": [
+                    "Các buổi thiền định hàng tuần vào Chủ nhật",
+                    "Các buổi giảng pháp hàng tháng",
+                    "Các lễ nghi đặc biệt trong các ngày lễ Phật giáo",
+                    "Các sự kiện và lễ hội văn hóa"
+                ]
+            },
+            "activities": {
+                "title": "Thông Báo Gần Đây",
+                "description": "Các cập nhật và thông báo mới nhất:",
+                "items": [
+                    "Nhóm thiền mới sắp bắt đầu",
+                    "Điều chỉnh giờ mở cửa tạm thời",
+                    "Cần tình nguyện viên cho các sự kiện",
+                    "Khóa học Phật pháp mới đã có"
+                ]
+            },
+            "membership": {
+                "title": "Thông Báo Quan Trọng",
+                "description": "Lưu ý các thông tin quan trọng sau:"
+            },
+            "contact": {
+                "title": "Liên Hệ",
+                "description": "Để biết thêm thông tin về các thông báo và sự kiện, vui lòng liên hệ với ban điều hành của chùa."
+            }
+        }
+    }
+} 

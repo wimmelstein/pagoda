@@ -1,0 +1,48 @@
+{
+    "title": {
+        "nl": "Over ons",
+        "vi": "Giới Thiệu"
+    },
+    "content": {
+        "nl": {
+            "objectives": {
+                "title": "Welkom bij Van Hanh Pagode",
+                "description": "De Van Hanh Pagode is een boeddhistische tempel en gemeenschap in Nederland. Wij bieden een plek voor meditatie, studie, en het samen beleven van het boeddhisme. Onze missie is het bevorderen van vrede, compassie en wijsheid in het dagelijks leven. Iedereen is welkom om deel te nemen aan onze activiteiten, ongeacht achtergrond of ervaring.",
+                "items": []
+            },
+            "activities": {
+                "title": "",
+                "description": "",
+                "items": []
+            },
+            "membership": {
+                "title": "",
+                "description": ""
+            },
+            "contact": {
+                "title": "",
+                "description": ""
+            }
+        },
+        "vi": {
+            "objectives": {
+                "title": "Chào mừng đến với Chùa Vạn Hạnh",
+                "description": "Chùa Vạn Hạnh là một ngôi chùa và cộng đồng Phật giáo tại Hà Lan. Chúng tôi cung cấp không gian cho thiền định, học hỏi và thực hành Phật pháp. Sứ mệnh của chúng tôi là lan tỏa hòa bình, từ bi và trí tuệ trong cuộc sống hàng ngày. Mọi người đều được chào đón tham gia các hoạt động của chùa, không phân biệt xuất thân hay kinh nghiệm.",
+                "items": []
+            },
+            "activities": {
+                "title": "",
+                "description": "",
+                "items": []
+            },
+            "membership": {
+                "title": "",
+                "description": ""
+            },
+            "contact": {
+                "title": "",
+                "description": ""
+            }
+        }
+    }
+} 

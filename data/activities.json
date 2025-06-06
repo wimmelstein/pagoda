@@ -1,0 +1,48 @@
+{
+  "title": {
+    "nl": "Activiteiten",
+    "vi": "Hoạt Động"
+  },
+  "content": {
+    "nl": {
+      "objectives": {
+        "title": "Activiteiten",
+        "description": "Hier vindt u een overzicht van onze activiteiten.",
+        "items": []
+      },
+      "activities": {
+        "title": "",
+        "description": "",
+        "items": []
+      },
+      "membership": {
+        "title": "",
+        "description": ""
+      },
+      "contact": {
+        "title": "",
+        "description": ""
+      }
+    },
+    "vi": {
+      "objectives": {
+        "title": "Hoạt Động",
+        "description": "Đây là tổng quan về các hoạt động của chúng tôi.",
+        "items": []
+      },
+      "activities": {
+        "title": "",
+        "description": "",
+        "items": []
+      },
+      "membership": {
+        "title": "",
+        "description": ""
+      },
+      "contact": {
+        "title": "",
+        "description": ""
+      }
+    }
+  }
+} 

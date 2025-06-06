@@ -1,0 +1,7 @@
+[
+  {"data-nl": "Home", "data-vi": "Trang Chủ", "href": "/"},
+  {"data-nl": "Over Ons", "data-vi": "Giới Thiệu", "data-content": "about", "href": "#about"},
+  {"data-nl": "Activiteiten", "data-vi": "Hoạt Động", "data-content": "activities", "href": "#activities"},
+  {"data-nl": "Schema", "data-vi": "Lịch", "data-content": "schedule", "href": "#schedule"},
+  {"data-nl": "Contact", "data-vi": "Liên Hệ", "data-content": "contact", "href": "#contact"}
+] 

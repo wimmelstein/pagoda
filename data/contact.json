@@ -1,0 +1,48 @@
+{
+  "title": {
+    "nl": "Contact",
+    "vi": "Liên Hệ"
+  },
+  "content": {
+    "nl": {
+      "objectives": {
+        "title": "Contact",
+        "description": "Neem contact met ons op voor meer informatie of vragen.",
+        "items": []
+      },
+      "activities": {
+        "title": "",
+        "description": "",
+        "items": []
+      },
+      "membership": {
+        "title": "",
+        "description": ""
+      },
+      "contact": {
+        "title": "",
+        "description": ""
+      }
+    },
+    "vi": {
+      "objectives": {
+        "title": "Liên Hệ",
+        "description": "Liên hệ với chúng tôi để biết thêm thông tin hoặc đặt câu hỏi.",
+        "items": []
+      },
+      "activities": {
+        "title": "",
+        "description": "",
+        "items": []
+      },
+      "membership": {
+        "title": "",
+        "description": ""
+      },
+      "contact": {
+        "title": "",
+        "description": ""
+      }
+    }
+  }
+} 

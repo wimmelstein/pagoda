@@ -1,0 +1,70 @@
+{
+    "title": {
+        "nl": "Nieuws",
+        "vi": "Tin Tức"
+    },
+    "content": {
+        "nl": {
+            "introduction": "Blijf op de hoogte van het laatste nieuws en ontwikkelingen van de Van Hanh Pagode.",
+            "objectives": {
+                "title": "Laatste Nieuws",
+                "description": "De meest recente updates:",
+                "items": [
+                    "Succesvolle viering van Vesak 2024",
+                    "Nieuwe meditatieprogramma's gestart",
+                    "Uitbreiding van de tempelbibliotheek",
+                    "Samenwerking met lokale gemeenschap"
+                ]
+            },
+            "activities": {
+                "title": "Aankomende Activiteiten",
+                "description": "Wat staat er op de agenda:",
+                "items": [
+                    "Zomerretraite 2024",
+                    "Cultureel festival in september",
+                    "Dharma-cursus voor beginners",
+                    "Jeugdprogramma's tijdens schoolvakanties"
+                ]
+            },
+            "membership": {
+                "title": "Gemeenschapsnieuws",
+                "description": "Updates over de tempelgemeenschap:"
+            },
+            "contact": {
+                "title": "Contact",
+                "description": "Voor het indienen van nieuws of vragen, neem contact op met de redactie."
+            }
+        },
+        "vi": {
+            "introduction": "Cập nhật tin tức và sự kiện mới nhất của Chùa Vạn Hạnh.",
+            "objectives": {
+                "title": "Tin Mới Nhất",
+                "description": "Các cập nhật gần đây:",
+                "items": [
+                    "Lễ Phật Đản 2024 thành công tốt đẹp",
+                    "Khởi động các chương trình thiền mới",
+                    "Mở rộng thư viện chùa",
+                    "Hợp tác với cộng đồng địa phương"
+                ]
+            },
+            "activities": {
+                "title": "Hoạt Động Sắp Tới",
+                "description": "Các sự kiện sắp diễn ra:",
+                "items": [
+                    "Khóa tu mùa hè 2024",
+                    "Lễ hội văn hóa tháng 9",
+                    "Khóa học Phật pháp cho người mới bắt đầu",
+                    "Chương trình thanh thiếu niên trong kỳ nghỉ học"
+                ]
+            },
+            "membership": {
+                "title": "Tin Cộng Đồng",
+                "description": "Cập nhật về cộng đồng chùa:"
+            },
+            "contact": {
+                "title": "Liên Hệ",
+                "description": "Để gửi tin tức hoặc câu hỏi, vui lòng liên hệ với ban biên tập."
+            }
+        }
+    }
+} 

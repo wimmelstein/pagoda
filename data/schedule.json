@@ -1,0 +1,48 @@
+{
+  "title": {
+    "nl": "Schema",
+    "vi": "Lịch"
+  },
+  "content": {
+    "nl": {
+      "objectives": {
+        "title": "Schema",
+        "description": "Hier vindt u het schema van onze diensten en activiteiten.",
+        "items": []
+      },
+      "activities": {
+        "title": "",
+        "description": "",
+        "items": []
+      },
+      "membership": {
+        "title": "",
+        "description": ""
+      },
+      "contact": {
+        "title": "",
+        "description": ""
+      }
+    },
+    "vi": {
+      "objectives": {
+        "title": "Lịch",
+        "description": "Đây là lịch các buổi lễ và hoạt động của chúng tôi.",
+        "items": []
+      },
+      "activities": {
+        "title": "",
+        "description": "",
+        "items": []
+      },
+      "membership": {
+        "title": "",
+        "description": ""
+      },
+      "contact": {
+        "title": "",
+        "description": ""
+      }
+    }
+  }
+} 

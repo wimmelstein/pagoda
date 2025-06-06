@@ -1,0 +1,74 @@
+{
+    "title": {
+        "nl": "Boeddhistische Vereniging in Nederland",
+        "vi": "Hội PGVN tại HL"
+    },
+    "content": {
+        "nl": {
+            "introduction": "De Boeddhistische Vereniging in Nederland (Hội PGVN tại HL) is een officiële organisatie die zich inzet voor de bevordering van het boeddhisme in Nederland. De vereniging is opgericht in 2006 en is gevestigd in de Van Hanh Pagode in Hoa Lan.",
+            "objectives": {
+                "title": "Doelstellingen",
+                "description": "De vereniging stelt zich ten doel:",
+                "items": [
+                    "Het bevorderen van de boeddhistische leer en praktijk in Nederland",
+                    "Het ondersteunen van Vietnamese boeddhisten in Nederland",
+                    "Het organiseren van culturele en religieuze activiteiten",
+                    "Het bevorderen van interculturele dialoog en begrip"
+                ]
+            },
+            "activities": {
+                "title": "Activiteiten",
+                "description": "De vereniging organiseert regelmatig:",
+                "items": [
+                    "Wekelijkse meditatiesessies",
+                    "Dharma-lezingen en -studies",
+                    "Boeddhistische ceremonies en vieringen",
+                    "Culturele evenementen en festivals",
+                    "Jeugdprogramma's en educatieve activiteiten",
+                    "Sociale en maatschappelijke activiteiten"
+                ]
+            },
+            "membership": {
+                "title": "Lidmaatschap",
+                "description": "De vereniging is open voor iedereen die geïnteresseerd is in het boeddhisme en de Vietnamese cultuur. Leden kunnen deelnemen aan alle activiteiten en hebben toegang tot de bibliotheek en andere faciliteiten van de tempel."
+            },
+            "contact": {
+                "title": "Contact",
+                "description": "Voor meer informatie over de vereniging en haar activiteiten, kunt u contact opnemen met het bestuur via de Van Hanh Pagode."
+            }
+        },
+        "vi": {
+            "introduction": "Hội Phật Giáo Việt Nam tại Hà Lan (Hội PGVN tại HL) là một tổ chức chính thức hoạt động nhằm phát triển Phật giáo tại Hà Lan. Hội được thành lập vào năm 2006 và có trụ sở tại Chùa Vạn Hạnh ở Hà Lan.",
+            "objectives": {
+                "title": "Mục Tiêu",
+                "description": "Hội đặt ra các mục tiêu sau:",
+                "items": [
+                    "Phát triển giáo lý và thực hành Phật giáo tại Hà Lan",
+                    "Hỗ trợ Phật tử Việt Nam tại Hà Lan",
+                    "Tổ chức các hoạt động văn hóa và tôn giáo",
+                    "Thúc đẩy đối thoại và hiểu biết liên văn hóa"
+                ]
+            },
+            "activities": {
+                "title": "Hoạt Động",
+                "description": "Hội thường xuyên tổ chức:",
+                "items": [
+                    "Các buổi thiền định hàng tuần",
+                    "Các buổi giảng pháp và học pháp",
+                    "Các lễ nghi và lễ hội Phật giáo",
+                    "Các sự kiện và lễ hội văn hóa",
+                    "Các chương trình và hoạt động giáo dục cho thanh thiếu niên",
+                    "Các hoạt động xã hội và cộng đồng"
+                ]
+            },
+            "membership": {
+                "title": "Hội Viên",
+                "description": "Hội mở cửa cho tất cả những ai quan tâm đến Phật giáo và văn hóa Việt Nam. Hội viên có thể tham gia tất cả các hoạt động và được sử dụng thư viện cùng các tiện nghi khác của chùa."
+            },
+            "contact": {
+                "title": "Liên Hệ",
+                "description": "Để biết thêm thông tin về hội và các hoạt động, vui lòng liên hệ với ban điều hành qua Chùa Vạn Hạnh."
+            }
+        }
+    }
+} 
